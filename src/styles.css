@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: blueviolet;
+  border: 1px solid black;
+  height: 400px;
+  width: 40vw;
+  border-radius: 15px;
+  overflow-y: auto;
+}
+body {
+  background-color: burlywood;
+}
+.main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul {
+  padding-top: 30px;
+}
+.delete-button {
+  border-radius: 5px;
+  color: red;
+  margin: 2%;
+  margin-left: 5%;
+}
+li {
+  color: black;
+  font-size: 25px;
+}
+ul {
+  list-style-type: none;
+}
+.ul-div {
+  overflow-y: scroll;
+}
+.add {
+  color: green;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-left: 3%;
+  font-size: 25px;
+}
+.input {
+  border: 2px solid lightgreen;
+  border-radius: 3px;
+  color: black;
+  font-size: 25px;
+  margin: 0;
+  padding: 0px;
+}
+.heading {
+  position: sticky;
+}
+@media screen and (max-width: 420px) {
+  .App {
+    width: 80vw;
+  }
+}
